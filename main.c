@@ -15,9 +15,7 @@ int main(int argc, char *argv[]) {
     }
     for (int i = 0; i < input_size; i++) {
         array[i] = atoi(argv[i + 1]);
-        printf("%d ", array[i]);
     }
-    printf("\n");
 
     ////////////////////////////
     // Add your function here //
@@ -27,5 +25,7 @@ int main(int argc, char *argv[]) {
 
     ////////////////////////////
 
-    return array_sum;
+    printf("somma del vettore=%d\n", array_sum);
+
+    return 0;
 }
